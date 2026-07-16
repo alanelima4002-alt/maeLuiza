@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -173,7 +175,6 @@ nav a{
 </nav>
 
 <div class="banner">
-    <img src="coelho.png" alt="Coelho">
     Feliz Páscoa
 </div>
 
@@ -182,7 +183,7 @@ nav a{
 <div class="products">
 
     <div class="card">
-        <img src="img/colgate.png">
+        <img src="{% static 'img/64_9ead33afc6 1.png' %}" alt="Creme Dental Colgate">
         <div class="price">R$ 3,99</div>
         <div class="name">
             CREME DENTAL COLGATE M.P.A 90G
@@ -190,7 +191,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/flor-ype.png">
+        <img src="{% static 'img/63_1f8543ef12 1.png' %}" alt="Sabonete Flor de Ypê">
         <div class="price">R$ 1,69</div>
         <div class="name">
             SABONETE FLOR DE YPÊ 85G
@@ -198,7 +199,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/limpamil.png">
+        <img src="{% static 'img/gdfgdgdfgd 1.png' %}" alt="Lava Roupas Limpamil">
         <div class="price">R$ 11,98</div>
         <div class="name">
             LAVA ROUPAS LIMPAMIL 3L
@@ -206,7 +207,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/alice.png">
+        <img src="{% static 'img/ffreetet 1.png' %}" alt="Detergente Líquido Alice">
         <div class="price">R$ 1,19</div>
         <div class="name">
             DETERGENTE LÍQUIDO ALICE 500ML
@@ -217,10 +218,12 @@ nav a{
 
 <h2 class="section-title">COMIDAS E BEBIDAS</h2>
 
+{% load static %}
+
 <div class="products">
 
     <div class="card">
-        <img src="img/julieta.png">
+        <img src="{% static 'img/40_fd4fe42fc3 1.png' %}" alt="Molho de Tomate">
         <div class="price">R$ 1,19</div>
         <div class="name">
             MOLHO DE TOMATE JULIETA 340G
@@ -228,7 +231,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/iogurte.png">
+        <img src="{% static 'img/34_da188c4555 1.png' %}" alt="Manteiga">
         <div class="price">R$ 21,98</div>
         <div class="name">
             MANTEIGA JUCURUTU COM SAL 500G
@@ -236,7 +239,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/rivoli.png">
+        <img src="{% static 'img/23_001e6ab68f 1.png' %}" alt="Azeitona">
         <div class="price">R$ 2,49</div>
         <div class="name">
             AZEITONA RIVOLI SACHÊ 80G
@@ -244,7 +247,7 @@ nav a{
     </div>
 
     <div class="card">
-        <img src="img/cipan.png">
+        <img src="{% static 'img/06_40ee4623e5 1.png' %}" alt="Biscoito">
         <div class="price">R$ 2,99</div>
         <div class="name">
             BISCOITO CREAM CRACKER CIPAN 300G
